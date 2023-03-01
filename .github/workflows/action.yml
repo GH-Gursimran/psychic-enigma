@@ -5,4 +5,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      do echo "Job Executed"
+      - run: echo "Job Executed"
