@@ -1,7 +1,6 @@
 name: Github Actions Reuse
 on:
-  workflow_call:
-  workflow_dispatch:
+  repository_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
